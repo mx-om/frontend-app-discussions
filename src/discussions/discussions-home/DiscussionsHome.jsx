@@ -8,7 +8,8 @@ import {
   matchPath, Route, Routes, useLocation, useMatch,
 } from 'react-router-dom';
 
-import { LearningHeader as Header } from '@edx/frontend-component-header';
+// import { LearningHeader as Header } from '@edx/frontend-component-header';
+import  Header  from '@edx/frontend-component-header';
 
 import { Spinner } from '../../components';
 import selectCourseTabs from '../../components/NavigationBar/data/selectors';
