@@ -7,7 +7,7 @@
 @import "~@edx/frontend-component-header/dist/index";
 
 $fa-font-path: "~font-awesome/fonts";
-@import "~font-awesome/scss/font-awesome";
+// @import "~font-awesome/scss/font-awesome";
 
 #post,
 #comment,
@@ -580,4 +580,8 @@ th, td {
   border: 1px dashed $gray-200;
   padding: 0.4rem;
   white-space: nowrap;
+}
+
+.form-control:focus ~ .pgn__form-control-floating-label .pgn__form-control-floating-label-text, .form-control.has-value ~ .pgn__form-control-floating-label .pgn__form-control-floating-label-text {
+  transform: translateY(-.5625rem) scale(.75) translateY(-80.0007500188%);
 }
